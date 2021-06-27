@@ -12,7 +12,7 @@ using Application = Autodesk.Revit.ApplicationServices.Application;
 namespace BetaDragon
 {
     [Transaction(TransactionMode.Manual)]
-    public class Lesson3Cmd : IExternalCommand
+    public class Lesson4Cmd : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData,
             ref string message, ElementSet elements)
